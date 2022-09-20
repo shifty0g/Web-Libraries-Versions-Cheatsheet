@@ -6,7 +6,7 @@ I will try and add more as i go
 
 Input the following payloads into Web Browser's Console to check and validate the versions of components used within a specific website
 
-# All in One Special
+## All in One Special
 
 The idea of this is to slap this badboy in the dev console on a webapp test to get a nice list to validate. Also gives you a nice screenshot for console too 
 
@@ -114,4 +114,9 @@ tinyMCE
 ## EmberJS
 ```
 Ember.VERSION
+```
+## Core-JS
+```
+window['__core-js_shared__'].versions
+global['__core-js_shared__'].versions
 ```
