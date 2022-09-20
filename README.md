@@ -99,6 +99,8 @@ Meteor.release
 ## React
 ```
 React.version
+
+# With React DevTools
 __REACT_DEVTOOLS_GLOBAL_HOOK__.renderers.forEach(r => console.log(`${r.rendererPackageName}: ${r.version}`))
 ```
 ## Socket.IO
