@@ -22,11 +22,15 @@ jQuery().jquery
 ## jQuery UI 
 ```
 $.ui.version
+```
+```
 $.ui
 ```
 ## Angular
 ```
 console.log('Angular Version:  angular.version)
+```
+```
 angular.version.full
 angular.version
 ```
@@ -61,6 +65,10 @@ Ext.getVersion().version
 ## CKEditor
 ```
 CKEDITOR.version
+```
+## React
+```
+__REACT_DEVTOOLS_GLOBAL_HOOK__.renderers.forEach(r => console.log(`${r.rendererPackageName}: ${r.version}`))
 ```
 ## Vue
 ```
