@@ -1,10 +1,22 @@
 # Web Libraries Versions Cheatsheet
 A Cheatsheet for Discovering Components with Known Vulnerabilities in Web Applications
 
+Note: I didnt do the inital groundwork. Standing on the shoulder of giants. Thank you @corneacristian
+
 Input the following payloads into Web Browser's Console to check and validate the versions of components used within a specific website
+
+# All in One Special
+
+The Idea of this is to 
+
+```
+console.log('JQuery Version: ' + $.fn.jquery) & console.log('Lodash Version: ' + _.VERSION) & console.log('Moment Version:  moment.version) & console.log('Angular Version:  angular.version)
+
+```
 
 ## jQuery
 ```
+console.log('JQuery Version: ' + $.fn.jquery) 
 jQuery().jquery
 ```
 ## jQuery UI 
@@ -16,6 +28,8 @@ $.ui
 ```
 ## Angular
 ```
+console.log('Angular Version:  angular.version)
+angular.version.full
 angular.version
 ```
 ## Bootstrap
@@ -24,10 +38,12 @@ $.fn.tooltip.Constructor.VERSION
 ```
 ## Lodash
 ```
+console.log('Lodash Version: ' + _.VERSION)
 _.VERSION
 ```
 ## MomentJS
 ```
+console.log('Moment Version:  moment.version) 
 moment.version
 ```
 ## ExtJS
