@@ -7,7 +7,7 @@ Input the following payloads into Web Browser's Console to check and validate th
 
 # All in One Special
 
-The Idea of this is to 
+The Idea of this is to slap this badboy in the dev console on a webapp test to get a nice list to validate. Also gives you a nice screenshot for console too 
 
 ```
 console.log('JQuery Version: ' + $.fn.jquery) & console.log('Lodash Version: ' + _.VERSION) & console.log('Moment Version:  moment.version) & console.log('Angular Version:  angular.version)
