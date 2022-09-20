@@ -16,6 +16,8 @@ console.log('JQuery Version: ' + $.fn.jquery) & console.log('Lodash Version: ' +
 ## jQuery
 ```
 console.log('JQuery Version: ' + $.fn.jquery) 
+```
+```
 jQuery().jquery
 ```
 ## jQuery UI 
@@ -28,6 +30,7 @@ $.ui
 ## Angular
 ```
 console.log('Angular Version:  angular.version)
+```
 angular.version.full
 angular.version
 ```
@@ -38,11 +41,15 @@ $.fn.tooltip.Constructor.VERSION
 ## Lodash
 ```
 console.log('Lodash Version: ' + _.VERSION)
+```
+```
 _.VERSION
 ```
 ## MomentJS
 ```
 console.log('Moment Version:  moment.version) 
+```
+```
 moment.version
 ```
 ## ExtJS
