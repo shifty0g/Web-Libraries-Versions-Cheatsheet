@@ -17,6 +17,8 @@ console.log('JQuery Version: ' + $.fn.jquery) & console.log('Lodash Version: ' +
 ## jQuery
 ```js
 console.log('JQuery Version: ' + $.fn.jquery) 
+```
+```js
 jQuery().jquery
 ```
 ## jQuery UI 
@@ -117,5 +119,7 @@ Ember.VERSION
 ## Core-JS
 ```js
 window['__core-js_shared__'].versions
+```
+```js
 global['__core-js_shared__'].versions
 ```
