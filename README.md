@@ -15,7 +15,7 @@ console.log('JQuery Version: ' + $.fn.jquery) & console.log('Lodash Version: ' +
 ```
 
 ## jQuery
-```
+```js
 console.log('JQuery Version: ' + $.fn.jquery) 
 jQuery().jquery
 ```
