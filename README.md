@@ -66,10 +66,6 @@ Ext.getVersion().version
 ```
 CKEDITOR.version
 ```
-## React
-```
-__REACT_DEVTOOLS_GLOBAL_HOOK__.renderers.forEach(r => console.log(`${r.rendererPackageName}: ${r.version}`))
-```
 ## Vue
 ```
 Vue.version
@@ -103,6 +99,7 @@ Meteor.release
 ## React
 ```
 React.version
+__REACT_DEVTOOLS_GLOBAL_HOOK__.renderers.forEach(r => console.log(`${r.rendererPackageName}: ${r.version}`))
 ```
 ## Socket.IO
 ```
