@@ -1,17 +1,16 @@
 # Web Libraries Versions Cheatsheet
 A Cheatsheet for Discovering Components with Known Vulnerabilities in Web Applications
 
-Note: I didnt do the inital groundwork. Standing on the shoulder of giants. Thank you @corneacristian
+Note: I didnt do the inital groundwork im just adding to it. Standing on the shoulder of giants. Thank you @corneacristian
 
 Input the following payloads into Web Browser's Console to check and validate the versions of components used within a specific website
 
 # All in One Special
 
-The Idea of this is to slap this badboy in the dev console on a webapp test to get a nice list to validate. Also gives you a nice screenshot for console too 
+The idea of this is to slap this badboy in the dev console on a webapp test to get a nice list to validate. Also gives you a nice screenshot for console too 
 
 ```
 console.log('JQuery Version: ' + $.fn.jquery) & console.log('Lodash Version: ' + _.VERSION) & console.log('Moment Version:  moment.version) & console.log('Angular Version:  angular.version)
-
 ```
 
 ## jQuery
