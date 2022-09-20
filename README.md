@@ -80,7 +80,7 @@ $.FE.VERSION
 FroalaEditor.VERSION
 ```
 ## DataTablesJS
-```js```js
+```js
 $.fn.dataTable.version
 ```
 ```js
