@@ -27,7 +27,7 @@ $.ui
 ```
 ## Angular
 ```js
-console.log('Angular Version:  angular.version)
+console.log('Angular Version:',  angular.version)
 ```
 ```js
 angular.version.full
